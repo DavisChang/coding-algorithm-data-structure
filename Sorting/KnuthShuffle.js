@@ -8,19 +8,19 @@
  *
  */
 
-function random(array, number) {
-  return array[Math.floor(Math.random() * number)];
+function randomIndex(number) {
+  return Math.floor(Math.random() * number);
 }
 
-function exchange(array, index, minIndex) {
-  const temp = array[index];
-  array[index] = array[minIndex];
-  array[minIndex] = temp;
+function exchange(a, i, j) {
+  const temp = a[i];
+  a[i] = a[j];
+  a[j] = temp;
 }
 
 function KnuthShuffle(list) {
   for (let i = 0; i < list.length; i++) {
-    const r = random(list, i + 1);
+    const r = randomIndex(i + 1);
     exchange(list, i, r);
   }
 }

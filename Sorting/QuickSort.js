@@ -1,3 +1,4 @@
+const KnuthShuffle = require("./KnuthShuffle");
 /*
  * QuickSort
  * 1. shuffle
@@ -49,6 +50,8 @@ function sort(a, lo, hi) {
 
 function QuickSort(list) {
   // shuffle
+  KnuthShuffle(list);
+
   // sort
   sort(list, 0, list.length - 1);
 }
