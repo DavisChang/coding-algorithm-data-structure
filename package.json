@@ -1,0 +1,17 @@
+{
+  "name": "coding-algorithm-data-structure",
+  "keywords": [
+    "algorithms",
+    "data structure",
+    "(DAS)",
+    "jest",
+    "unit testing"
+  ],
+  "description": "algorithms and data structure (DAS)",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
