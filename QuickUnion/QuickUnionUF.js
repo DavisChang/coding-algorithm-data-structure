@@ -1,3 +1,11 @@
+/**
+ * QuickUnionUF
+ *
+ * Connectivity
+ * 1. forest
+ * 2. ensure no cycle (acyclic)
+ */
+
 class QuickUnionUF {
   static list = [];
 

@@ -1,7 +1,8 @@
 /**
  * BreadthFirstSearch
- * 1. Queue
- * 2. Fewest number of edges
+ * 1. Repeat
+ * 2. Queue
+ * 3. Fewest number of edges
  */
 
 class BreadthFirstSearch {
@@ -16,7 +17,7 @@ class BreadthFirstSearch {
     // Initialize distTo array
     this.distTo = Array(graph.getV()).fill(Infinity);
 
-    this.bfs(this.s); // Start DFS from the source vertex
+    this.bfs(this.s); // Start BFS from the source vertex
   }
 
   bfs(s) {
