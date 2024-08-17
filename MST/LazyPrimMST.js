@@ -3,6 +3,9 @@
  * Prim's Algorithm
  * EdgeWeightGraph
  * MinPQ
+ *
+ * time: ElogE
+ * space: E
  */
 
 class MinPQ {
