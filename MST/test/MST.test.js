@@ -12,7 +12,6 @@ describe("MST - Kruskal's Algorithm", () => {
     graph.addEdge(new Edge(1, 3, 4));
     graph.addEdge(new Edge(2, 3, 5));
 
-    console.log(graph);
     // Run Kruskal's algorithm
     const mst = new MST(graph);
     mst.kruskalMST(graph);

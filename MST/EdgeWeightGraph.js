@@ -17,7 +17,6 @@ class EdgeWeightGraph {
   addEdge(e) {
     const v = e.either();
     const w = e.other(v);
-    console.log(v, w);
     this.adj[v].push(e);
     this.adj[w].push(e);
   }
