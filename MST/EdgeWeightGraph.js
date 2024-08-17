@@ -21,7 +21,7 @@ class EdgeWeightGraph {
     this.adj[w].push(e);
   }
 
-  adj(v) {
+  getAdj(v) {
     return this.adj[v];
   }
 
